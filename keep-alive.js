@@ -14,6 +14,6 @@ function sendRequest() {
 }
 
 // Send a request every 5 minutes (300,000 milliseconds)
-setInterval(sendRequest, 300000);
+setInterval(sendRequest, 5000);
 
 console.log(`Started keep-alive script. Pinging ${url} every 5 minutes.`);
